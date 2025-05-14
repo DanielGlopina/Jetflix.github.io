@@ -1,0 +1,37 @@
+{
+  "first": {
+    "name": "Stranger Things",
+    "rating": 8.7,
+    "img": "https://media.gq-magazine.co.uk/photos/64d26c788651bb7da9ad3a2c/4:3/w_2560,h_1920,c_limit/StrangerThings_StrangerThings4_8_01_15_28_14.jpg"
+  },
+
+  "second": {
+    "name": "The Crown",
+    "rating": 8.6,
+    "img": "https://assets.vogue.com/photos/5a2a16dbe99cb41942b03ca9/master/w_2560%2Cc_limit/00-story-image-the-crown.jpg"
+  },
+
+  "third": {
+    "name": "Breaking Bad",
+    "rating": 9.5,
+    "img": "https://static01.nyt.com/images/2019/08/26/arts/26paul/merlin_76764656_173df8df-9044-456d-9c2d-1c03f1a41042-superJumbo.jpg"
+  },
+
+  "fourth": {
+    "name": "Black Mirror",
+    "rating": 8.7,
+    "img": "https://itc.ua/wp-content/uploads/2025/04/black_mirror_season_7_gets_a_new_trailer_episode_posters_and_story.jpg"
+  },
+
+  "fifth": {
+    "name": "The Witcher",
+    "rating": 8.0,
+    "img": "https://image.tmdb.org/t/p/w500/7vjaCdMw15FEbXyLQTVa04URsPm.jpg"
+  },
+
+  "sixth": {
+    "name": "Dark",
+    "rating": 8.8,
+    "img": "https://image.tmdb.org/t/p/w500/4EYPN5mVIhKLfxGruy7Dy41dTVn.jpg"
+  }
+}

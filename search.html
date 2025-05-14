@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="theme-color" content="#141414" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <title>Jetflix - Moovies</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <script src="js/script.js" defer type="module"></script>
+    <script src="js/search.js" defer type="module"></script>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        <a href="index.html" style="text-decoration: none; color: inherit"
+          >Jetflix</a
+        >
+      </div>
+      <div class="search-section">
+        <input
+          type="text"
+          placeholder="Search Movies..."
+          class="search-input"
+          data-js-input
+        />
+        <a href="search.html" class="search-link" data-js-search>🔍</a>
+      </div>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="search.html">Search</a>
+        <a href="subscriptions.html">Subscriptions</a>
+      </nav>
+    </header>
+
+    <div class="container-large">
+      <a href="index.html"><img src="icons/arrow-back.svg" alt="back home page"></a>
+      <div class="search-results">
+        <h2 style="text-align: center" data-js-alert>No Moovies Found...</h2>
+        <div class="results-container" data-js-results></div>
+      </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-social">
+          <a href="https://i.pinimg.com/736x/c5/d0/80/c5d080055087df07df62bd9ababfcb2e.jpg" aria-label="Facebook" class="footer-icon"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://i.pinimg.com/736x/c5/d0/80/c5d080055087df07df62bd9ababfcb2e.jpg" aria-label="Twitter" class="footer-icon"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://i.pinimg.com/736x/c5/d0/80/c5d080055087df07df62bd9ababfcb2e.jpg" aria-label="Instagram" class="footer-icon"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://i.pinimg.com/736x/0b/79/d5/0b79d575a7cda524b5ffa65c3476dcb6.jpg" aria-label="YouTube" class="footer-icon"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </div>
+        <div class="footer-text">&copy; 2024 Jetflix. All rights reserved.</div>
+      </div>
+    </footer>
+  </body>
+</html>

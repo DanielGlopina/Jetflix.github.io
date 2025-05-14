@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="theme-color" content="#141414" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <title>Jetflix</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <script src="js/script.js" defer type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Jetflix</div>
+      <div class="search-section">
+        <input
+          type="text"
+          placeholder="Search Movies..."
+          class="search-input"
+          data-js-input
+        />
+        <a href="search.html" class="search-link" data-js-search>🔍</a>
+      </div>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="search.html">Search</a>
+        <a href="subscriptions.html">Subscriptions</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="welcome-section">
+        <h1>Welcome to Jetflix</h1>
+        <p>Unlimited movies, TV shows, and more.</p>
+        <div class="hero-buttons">
+          <a href="subscriptions.html" class="play">▶ Get Started</a>
+          <a href="https://www.tvmaze.com/" class="more-info">ℹ Learn More</a>
+        </div>
+      </div>
+
+      <div class="content-section">
+        <h2>Discover Your Next Favorite</h2>
+        <p class="content-description">
+          Explore our vast collection of movies and TV shows. From blockbuster
+          hits to indie gems, we've got something for everyone. Start your
+          journey into the world of entertainment today.
+        </p>
+        <div class="features">
+          <div class="feature">
+            <h3>🎬 Latest Releases</h3>
+            <p>Stay up to date with the newest movies and shows</p>
+          </div>
+          <div class="feature">
+            <h3>⭐ Popular Picks</h3>
+            <p>Discover what everyone's watching right now</p>
+          </div>
+          <div class="feature">
+            <h3>🎯 Personalized</h3>
+            <p>Get recommendations based on your taste</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scrollable Section -->
+      <section class="scrollable-section">
+        <h2>Popular on Jetflix</h2>
+        <div class="scroll-container" data-js-scroll></div>
+      </section>
+
+      <div class="download-section">
+        <h2>Download Jetflix App</h2>
+        <p class="download-description">
+          Watch your favorite shows and movies on the go. Download our app now!
+        </p>
+        <div class="download-content">
+          <div class="app-buttons">
+            <a
+              href="https://i.pinimg.com/736x/b0/2c/4d/b02c4d2f4ed72910224082a6261783e7.jpg"
+              class="app-button"
+            >
+              <i class="fab fa-apple"></i>
+              <div class="app-button-text">
+                <span class="small-text">Download on the</span>
+                <span class="large-text">App Store</span>
+              </div>
+            </a>
+            <a
+              href="https://i.pinimg.com/736x/4f/5e/e2/4f5ee2d4afad6b8873fca90d679e3194.jpg"
+              class="app-button"
+            >
+              <i class="fab fa-google-play"></i>
+              <div class="app-button-text">
+                <span class="small-text">GET IT ON</span>
+                <span class="large-text">Google Play</span>
+              </div>
+            </a>
+          </div>
+          <div class="qr-code">
+            <img
+              src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jetflix.com/app"
+              alt="Download QR Code"
+            />
+            <p>Scan to download</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-social">
+          <a
+            href="https://i.pinimg.com/736x/01/92/23/019223bebbbd86d4bda5a2a0e2e4efbf.jpg"
+            aria-label="Facebook"
+            class="footer-icon"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            href="https://i.pinimg.com/736x/01/92/23/019223bebbbd86d4bda5a2a0e2e4efbf.jpg"
+            aria-label="Twitter"
+            class="footer-icon"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://i.pinimg.com/736x/01/92/23/019223bebbbd86d4bda5a2a0e2e4efbf.jpg"
+            aria-label="Instagram"
+            class="footer-icon"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://i.pinimg.com/736x/01/92/23/019223bebbbd86d4bda5a2a0e2e4efbf.jpg"
+            aria-label="YouTube"
+            class="footer-icon"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </div>
+        <div class="footer-text">&copy; 2024 Jetflix. All rights reserved.</div>
+      </div>
+    </footer>
+  </body>
+</html>
